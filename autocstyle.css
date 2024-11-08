@@ -1,0 +1,63 @@
+:root{
+	--tableOfContentsHpadd:10px;
+	--borderColor:hsl(0, 0%, 25%);
+	--borderRadius:8px;
+}
+
+
+/*--------tableOfContents--------*/
+
+.tableOfContents{
+	max-width: calc(1800px + 10vw);
+	padding: 20px 1em;
+	margin: 0 auto;
+}
+
+.tableOfContents-list{
+	display: flex;
+	padding: 20px;
+	overflow: hidden;
+	border: 1px solid var(--borderColor);
+	border-radius: var(--borderRadius);
+}
+
+.tableOfContents-btn{
+	width: 100%;
+	padding: 10px 10px;
+	cursor:pointer;
+
+}
+
+.tableOfContents-anchor{
+	color: hsl(200 80% 60%) !important;
+	cursor: pointer;
+}
+.tableOfContents-anchor:hover{
+	color: hsl(200 80% 40%) !important;
+}
+.tableOfContents-anchor{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin: 0 10px;
+}
+.tocH1{}
+.tocH2{
+	padding-left: calc(var(--tableOfContentsHpadd) * 2);
+}
+.tocH3{
+	padding-left: calc(var(--tableOfContentsHpadd) * 3);
+}
+.tocH4{
+	padding-left: calc(var(--tableOfContentsHpadd) * 4);
+}
+.tocH5{
+	padding-left: calc(var(--tableOfContentsHpadd) * 5);
+}
+.tocH6{
+	padding-left: calc(var(--tableOfContentsHpadd) * 6);
+}
+
+
+/*--------tableOfContents--------*/
+
