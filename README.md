@@ -4,10 +4,10 @@ Automatically generates a table of contents for your site
 ## How to use
 look at [example](https://github.com/NudeUnicorn/Auto-Table-Of-Contents/tree/main/Example)
 
-- just link `autoToc.js` and `autocstyleExmpl.css` files
+- just link `autoToc.js` and `autocstyle.css` files
 
 ```html
-<link rel="stylesheet" type="text/css" href="autocstyleExmpl.css">
+<link rel="stylesheet" type="text/css" href="autocstyle.css">
 
 <script src="autoToc.js"></script>
 ```
@@ -40,10 +40,10 @@ look at [example](https://github.com/NudeUnicorn/Auto-Table-Of-Contents/tree/mai
 ## Как использовать
 посмотрите на [пример](https://github.com/NudeUnicorn/Auto-Table-Of-Contents/tree/main/Example)
 
-- привяжите файлы `autoToc.js` и `autocstyleExmpl.css`
+- привяжите файлы `autoToc.js` и `autocstyle.css`
 
 ```html
-<link rel="stylesheet" type="text/css" href="autocstyleExmpl.css">
+<link rel="stylesheet" type="text/css" href="autocstyle.css">
 
 <script src="autoToc.js"></script>
 ```
