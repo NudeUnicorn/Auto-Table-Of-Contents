@@ -90,6 +90,8 @@ function autoTableOfContents(classes = ["main"], anchorsText = "@", tableOfConte
 
 ```js
 let defaultRealizationParams = [elemH, aTOC, aAnchor, ...tocRealizationParams];
+//
+defaultRealization(...defaultRealizationParams);
 ```
 
 **Where:**
@@ -121,6 +123,8 @@ function autoTableOfContents(classes = ["main"], anchorsText = "@",tableOfConten
 
 ```js
 let defaultRealizationParams = [elemH, aTOC, aAnchor, ...tocRealizationParams];
+//
+defaultRealization(...defaultRealizationParams);
 ```
 
 **Где:**
