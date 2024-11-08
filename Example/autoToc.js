@@ -1,7 +1,7 @@
 //автооглавление - берет все тэги(h1-h6) со всех элементов с классом main, рядом с h создает якорь, а в оглавлении создает ссылку на него
 //auto-title - takes all tags(h1-h6) from all elements with the main class, creates an anchor next to h, and creates a link to it in the table of contents
 
-function autoTableOfContents(classes = ["main"], anchorsText = "@", tableOfContentsID = "tableOfContents-list", tocRealization = "", tocRealizationParams = [], anchorRegEx = /^[А-яёЁ]*/g) {
+function autoTableOfContents(classes = ["main"], anchorsText = "@", tableOfContentsID = "tableOfContents-list", tocRealization = null, tocRealizationParams = [], anchorRegEx = /^[А-яёЁ]*/g) {
 
 	if (classes.length == 0) return;
 	

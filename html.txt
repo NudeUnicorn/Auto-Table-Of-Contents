@@ -1,0 +1,25 @@
+<link rel="stylesheet" type="text/css" href="autocstyleExmpl.css">
+
+
+
+
+
+
+<div class="tableOfContents-list" id="tableOfContents-list">
+  <!-- all inside "tableOfContents-list" will be deleted and filled with you h-tags anchors-->
+
+</div>
+
+
+
+
+
+<script>
+
+    autoTableOfContents();
+    
+</script>
+
+<script src="autoToc.js"></script>
+
+
